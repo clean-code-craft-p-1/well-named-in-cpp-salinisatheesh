@@ -1,4 +1,4 @@
-#include "ColorCode.h"
+#include "colorcode.h"
 
 namespace TelCoColorCoder
 {
