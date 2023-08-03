@@ -28,5 +28,8 @@ int main() {
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
+     // Print the color coding reference manual
+    TelCoColorCoder::PrintColorCodingReference();
+
     return 0;
 }
