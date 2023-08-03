@@ -3,20 +3,21 @@
 
 namespace TelCoColorCoder
 {
-    static enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-    static enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+    namespace{ 
+     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-    static const char* MajorColorNames[] = {
+     const char* MajorColorNames[] = {
         "White", "Red", "Black", "Yellow", "Violet"
     };
-    static int numberOfMajorColors =
+     int numberOfMajorColors =
         sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-    static const char* MinorColorNames[] = {
+     const char* MinorColorNames[] = {
         "Blue", "Orange", "Green", "Brown", "Slate"
     };
-    static int numberOfMinorColors =
+     int numberOfMinorColors =
         sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
-
+}
     class ColorPair {
         private:
             MajorColor majorColor;
